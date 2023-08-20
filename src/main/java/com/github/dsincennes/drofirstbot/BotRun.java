@@ -10,7 +10,7 @@ public class BotRun {
 	
 	public DiscordApi runBot() {
 		
-        String fileName = "token.txt"; // Change this to the actual path of your token.txt file
+        String fileName = "token.txt";
         String content = "";
         try {
             content = readFileContent(fileName);
